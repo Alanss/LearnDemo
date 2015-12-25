@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alan.learndemo.MainActivity">
+
+    <Button
+        android:id="@+id/primaryColor"
+        android:text="PrimaryColor"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/colorMatrix"
+        android:textAllCaps="false"
+        android:text="ColorMatrix"
+        android:layout_below="@+id/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/pixelsEffect"
+        android:textAllCaps="false"
+        android:text="常用图像颜色矩阵处理效果"
+        android:layout_below="@+id/colorMatrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
